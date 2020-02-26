@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500|Work+Sans:300,400,500,900&display=swap');
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    background-color: #42ACD6;
+    font-family: 'Quicksand';
+    width: 100%;
+}
+.no-i {
+    background-color: white;
+}
+.corregir {
+    margin: 0;
+}
+.container {
+    margin: 1em;
+}
+.nmright {
+    margin-right: 0em;
+}
+.header {
+    background-color:#072E3D;
+    color: white;
+    margin-right: 0em;
+}
+.header h3, .footer h3 {
+    font-weight: 300;
+}
+.name {
+    font-weight: 500;
+    
+}
+.jumbotron {
+    background-color: #42ACD6;
+    color: white;
+    margin-right: 0em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.jumbotron h1 {
+    font-size: 5em;
+    font-weight: 300;
+}
+.jumbotron p {
+    font-size: 1.5em;
+}
+.element {
+    border: 0px solid rgb(138, 86, 29);
+    background-color: rgb(240, 240, 240);
+    border-radius: 1%;
+    padding: 1em;
+    padding-top: 0;
+}
+.element h2 {
+    font-weight: 400;
+}
+.element img {
+    width: 100%;
+}
+.btn-stn {
+    padding: 1em;
+    background-color: rgba(138, 86, 29, 1);
+    color: white;
+    text-decoration: none;
+    display: block;
+    border-radius: 2px;
+}
+.btn-stn:hover {
+    background-color: rgba(61, 33, 1, 1);
+}
+.footer {
+    background-color:#1D6B8A;
+    color: white;
+    margin-right: 0em;
+    position: absolute;
+    bottom:0px;
+    margin-left: 0;
+    width: 100%;
+}
+h3 a, h2 a {
+    text-decoration: none;
+    color: white;
+}
+h3 a:hover, h2 a:hover {
+    color: rgb(180, 180, 180);
+}
+/* Color Theme Swatches in RGBA */
+.My-Color-Theme-1-rgba { color: rgba(7, 46, 61, 1); }
+.My-Color-Theme-2-rgba { color: rgba(66, 172, 214, 1); }
+.My-Color-Theme-3-rgba { color: rgba(29, 107, 138, 1); }
+.My-Color-Theme-4-rgba { color: rgba(61, 33, 1, 1); }
+.My-Color-Theme-5-rgba { color: rgba(138, 86, 29, 1); }
