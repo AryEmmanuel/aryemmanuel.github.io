@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500|Work+Sans:300,400,500,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500&display=swap');
 html {
     min-height: 100%;
     position: relative;
@@ -50,8 +50,14 @@ a {
 .jumbotron p {
     font-size: 1.5em;
 }
+.sec {
+    padding-top: 0em;
+    padding-bottom: 0em;
+}
+.sec h2, .sec h3, .sec h4 {
+    font-weight: 400;
+}
 .element {
-    border: 0px solid rgb(138, 86, 29);
     background-color: rgb(240, 240, 240);
     border-radius: 1%;
     padding: 1em;
@@ -73,6 +79,14 @@ a {
 }
 .btn-stn:hover {
     background-color: rgba(61, 33, 1, 1);
+}
+.dbrown {
+    border-bottom:1px solid rgb(61, 33, 1);
+    position: relative;
+    left: 2em;
+}
+.lbrown {
+    /* background-color: rgb(138, 86, 29); */
 }
 .footer {
     background-color:#1D6B8A;
