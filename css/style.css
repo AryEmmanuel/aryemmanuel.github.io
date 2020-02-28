@@ -92,11 +92,11 @@ a {
     border-radius: 2px 2px 0px 0px;
     color: rgb(0,0,0);
 }
-.lbrown {
-    /* background-color: rgb(138, 86, 29); */
-}
 .info-area {
     background-color: rgb(230,230,230);
+}
+.info-area p {
+    color: black;
 }
 .footer {
     background-color:#1D6B8A;
