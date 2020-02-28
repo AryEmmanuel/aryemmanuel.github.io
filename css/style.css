@@ -50,6 +50,9 @@ a {
 .jumbotron p {
     font-size: 1.5em;
 }
+.ini {
+    background-image: linear-gradient(#072E3D, #42ACD6);
+}
 .sec {
     padding-top: 0em;
     padding-bottom: 0em;
@@ -58,7 +61,7 @@ a {
     font-weight: 400;
 }
 .element {
-    background-color: rgb(240, 240, 240);
+    background-color: rgba(240, 240, 240, 0.5);
     border-radius: 1%;
     padding: 1em;
     padding-top: 0;
@@ -71,22 +74,25 @@ a {
 }
 .btn-stn {
     padding: 1em;
-    background-color: rgba(138, 86, 29, 1);
-    color: white;
+    background-color: rgba(230,230,230, 1);
+    color: rgb(30,30,30);
     text-decoration: none;
     display: block;
     border-radius: 2px;
 }
 .btn-stn:hover {
-    background-color: rgba(61, 33, 1, 1);
+    background-color: rgba(210,210,210, 0.7);
 }
 .dbrown {
-    border-bottom:1px solid rgb(61, 33, 1);
-    position: relative;
-    left: 2em;
+    background-color:rgba(230, 230, 230, 0.6);
+    border-radius: 2px 2px 0px 0px;
+    color: rgb(0,0,0);
 }
 .lbrown {
     /* background-color: rgb(138, 86, 29); */
+}
+.info-area {
+    background-color: rgb(230,230,230);
 }
 .footer {
     background-color:#1D6B8A;
@@ -105,7 +111,7 @@ h3 a, h2 a {
     color: white;
 }
 h3 a:hover, h2 a:hover {
-    color: rgb(180, 180, 180);
+    color: rgb(200, 200, 200);
 }
 /* Color Theme Swatches in RGBA */
 .My-Color-Theme-1-rgba { color: rgba(7, 46, 61, 1); }
