@@ -98,14 +98,27 @@ a {
 .info-area p {
     color: black;
 }
+.info-area a {
+    color: black;
+    text-decoration: underline;
+}
+.info-area a:hover {
+    text-decoration: none;
+}
 .footer {
-    background-color:#1D6B8A;
-    color: white;
+    background-color:rgba(230, 230, 230, 0.4);
+    color: black;
     margin-right: 0em;
     position: relative;
     bottom:0px;
     margin-left: 0;
     width: 100%;
+}
+.footer a {
+    color: black;
+}
+.footer a:hover {
+    color: white;
 }
 .icon {
     width: 1.5em;
@@ -116,6 +129,12 @@ h3 a, h2 a {
 }
 h3 a:hover, h2 a:hover {
     color: rgb(200, 200, 200);
+}
+#comp, #ard, #camp {
+    cursor: pointer;
+}
+#comptxt, #camptxt, #ardtxt {
+    display: none;
 }
 /* Color Theme Swatches in RGBA */
 .My-Color-Theme-1-rgba { color: rgba(7, 46, 61, 1); }
