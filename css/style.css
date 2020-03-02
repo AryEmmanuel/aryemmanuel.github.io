@@ -25,19 +25,17 @@ a {
     margin-right: 0em;
 }
 .header {
-    background-color:#072E3D;
+    background-color: transparent;
     color: white;
     margin-right: 0em;
 }
 .header h3, .footer h3 {
-    font-weight: 300;
+    font-weight: 400;
 }
 .name {
     font-weight: 500;
-    
 }
 .jumbotron {
-    background-color: #42ACD6;
     color: white;
     margin-right: 0em;
     padding-top: 2em;
@@ -51,7 +49,7 @@ a {
     font-size: 1.5em;
 }
 .ini {
-    background-image: linear-gradient(#072E3D, #42ACD6);
+    background-image: linear-gradient(72.5deg, rgb(0, 175, 255) 27.9%, rgb(0, 224, 254) 84.2%);
 }
 .ini p {
     color: white;
@@ -72,6 +70,7 @@ a {
 }
 .element h2 {
     font-weight: 400;
+    color: white;
 }
 .element img {
     width: 100%;
@@ -126,9 +125,13 @@ a {
 h3 a, h2 a {
     text-decoration: none;
     color: white;
+    padding: 0.5em;
 }
-h3 a:hover, h2 a:hover {
-    color: rgb(200, 200, 200);
+h3 a:hover {
+    border: 1px solid white;
+}
+.selected {
+    border: 1px solid white;
 }
 #comp, #ard, #camp {
     cursor: pointer;
@@ -136,9 +139,3 @@ h3 a:hover, h2 a:hover {
 #comptxt, #camptxt, #ardtxt {
     display: none;
 }
-/* Color Theme Swatches in RGBA */
-.My-Color-Theme-1-rgba { color: rgba(7, 46, 61, 1); }
-.My-Color-Theme-2-rgba { color: rgba(66, 172, 214, 1); }
-.My-Color-Theme-3-rgba { color: rgba(29, 107, 138, 1); }
-.My-Color-Theme-4-rgba { color: rgba(61, 33, 1, 1); }
-.My-Color-Theme-5-rgba { color: rgba(138, 86, 29, 1); }
