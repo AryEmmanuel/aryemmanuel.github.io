@@ -133,9 +133,9 @@ h3 a:hover {
 .selected {
     border: 1px solid white;
 }
-#comp, #ard, #camp {
+#comp, #ard, #camp, #est {
     cursor: pointer;
 }
-#comptxt, #camptxt, #ardtxt {
+#comptxt, #camptxt, #ardtxt, #estxt {
     display: none;
 }

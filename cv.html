@@ -105,6 +105,45 @@
                                         <li>Empresario</li>
                                     </ul>
                                 </div>
+                                <p><a id="est">Oferta de proyectos de estadía de la carrera <i class="fas fa-chevron-down"></i></a></p>
+                                <div id="estxt">
+                                    <ul>
+                                        <li><strong>Competencia 1:</strong> 
+                                            Desarrollar y mantener los procesos productivos.
+                                            <ol>
+                                                <li>
+                                                    Planeación de  Sistemas Automatizados y de Control considerando los aspectos técnicos, económicos y normativos, utilizando tecnologías de la información; para garantizar la disponibilidad operacional. 
+                                                </li>
+                                                <li>
+                                                    Implementación   sistemas automatizados y de control  considerando la planeación establecida, para instalar, poner en marcha y probar el funcionamiento del sistema. 
+                                                </li>
+                                                <li>
+                                                    Supervisión  del mantenimiento a equipos automatizados y de control acorde a las normas, estándares, especificaciones técnicas y plan de mantenimiento, para contribuir a la operación del proceso.
+                                                </li>
+                                                <li>
+                                                    Gestión para la aplicación de nuevas tecnologías en procesos industriales y de servicios. considerando las necesidades y recursos de la empresa, así como  la normatividad establecida, para eficientar los procesos.
+                                                </li>
+                                                <li>
+                                                    Administración de recursos materiales especializados para equipos automatizados, de acuerdo a las necesidades propias del proceso y la normatividad aplicable, para realizar su diagnóstico.  
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li><strong>Competencia 2:</strong>
+                                            Implementar Sistemas de Medición y Control.
+                                            <ol>
+                                                <li>
+                                                    Supervisión de  los instrumentos o equipo de medición y control de acuerdo a las necesidades propias del proceso y la normatividad aplicable, para realizar su diagnóstico.
+                                                </li>
+                                                <li>
+                                                    Integración de los componentes del sistema de medición y control de acuerdo a las necesidades y especificaciones técnicas, para mantener y/o mejorar el proceso.
+                                                </li>
+                                                <li>
+                                                    Establecimiento de enlaces entre equipos y/o dispositivos considerando las necesidades y recursos de la empresa, así como  la normatividad establecida, para eficientar los procesos de comunicación y control.
+                                                </li>
+                                            </ol> 
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -123,12 +162,12 @@
                                 <h3>Universidad Autónoma de Chihuahua</h3>
                                 <h4>AGOSTO 2013 - MARZO 2015</h4>
                                 <p>Diplomado de inglés.</p>
-                                <p><a href="">Ver diploma</a></p>
+                                <p><a href="https://1drv.ms/u/s!AtoOhF6gPCDCwFE0IvsIvSKKX66F?e=cNru8k" target="_blank">Ver diploma</a></p>
                                 <br>
                                 <h3>ICATECH</h3>
                                 <h4>AGOSTO 2019 - NOVIEMBRE 2019</h4>
                                 <p>Lenguaje C para microcontroladores (básico).</p>
-                                <p><a href="">Ver certificado</a></p>
+                                <p><a href="https://1drv.ms/u/s!AtoOhF6gPCDCwFKqXFyCfjKitpE3?e=qHtEmT" target="_blank">Ver certificado</a></p>
                             </div>
                         </div>
                     </div>
@@ -212,6 +251,7 @@
         var compt = false
         var campt = false
         var ardt = false
+        var estt = false
 
         comp.addEventListener("click", (e) => {
             if (compt) {
@@ -244,6 +284,17 @@
                 ardtxt.style.display = "initial"
                 ardt = true
                 ard.innerHTML = 'Áreas de desarrollo de la carrera <i class="fas fa-chevron-up"></i>'
+            }
+        })
+        est.addEventListener("click", (e) => {
+            if (estt) {
+                estxt.style.display = "none"
+                estt = false
+                est.innerHTML = 'Oferta de proyectos de estadía de la carrera <i class="fas fa-chevron-down"></i>'
+            } else {
+                estxt.style.display = "initial"
+                estt = true
+                est.innerHTML = 'Oferta de proyectos de estadía de la carrera <i class="fas fa-chevron-up"></i>'
             }
         })
     </script>
