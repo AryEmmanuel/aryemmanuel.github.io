@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Slab:wght@700&display=swap');
 html {
     min-height: 100%;
     position: relative;
 }
 body {
     background-color: #42ACD6;
-    font-family: 'Quicksand';
+    font-family: 'Open Sans', serif;
     width: 100%;
 }
 a {
     text-decoration: none;
-    color: white;
 }
 .no-i {
     background-color: white;
@@ -25,35 +24,37 @@ a {
     margin-right: 0em;
 }
 .header {
-    background-color: transparent;
-    color: white;
+    background-color: white;
     margin-right: 0em;
+    padding: 0.5em;
+    border-bottom: 5px solid black;
 }
 .header h3, .footer h3 {
     font-weight: 400;
 }
 .name {
+    font-family: 'Roboto Slab';
     font-weight: 500;
 }
 .jumbotron {
-    color: white;
     margin-right: 0em;
-    padding-top: 2em;
+    padding-top: 1em;
     padding-bottom: 2em;
+    padding-left: 3em;
 }
 .jumbotron h1 {
-    font-size: 5em;
+    font-family: 'Roboto Slab';
+    font-size: 4em;
     font-weight: 300;
 }
 .jumbotron p {
     font-size: 1.5em;
 }
 .ini {
-    background-image: linear-gradient(72.5deg, rgb(0, 175, 255) 27.9%, rgb(0, 224, 254) 84.2%);
+    background-color: #DEEFE6;
 }
 .ini p {
-    color: white;
-    font-size: 1.2em;
+    font-size: 2em;
 }
 .sec {
     padding-top: 0em;
@@ -76,15 +77,29 @@ a {
     width: 100%;
 }
 .btn-stn {
-    padding: 1em;
-    background-color: rgba(230,230,230, 1);
+    padding: 0.7em;
     color: rgb(30,30,30);
-    text-decoration: none;
     display: block;
-    border-radius: 2px;
+    border: 3px solid;
+    border-radius: 15px;
+}
+.btn-stn h3 {
+    font-family: 'Roboto Slab';
+    margin: 0;
 }
 .btn-stn:hover {
-    background-color: rgba(210,210,210, 0.7);
+    background-color: black;
+    color: white;
+}
+.icn {
+    width: 1em;
+    height: 1em;
+}
+.twt {
+    background-image: url('../pics/social-media-twitter.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
 }
 .dbrown {
     background-color:rgba(230, 230, 230, 0.6);
@@ -105,13 +120,16 @@ a {
     text-decoration: none;
 }
 .footer {
-    background-color:rgba(230, 230, 230, 0.4);
+    background-color:#5CD99E;
     color: black;
     margin-right: 0em;
-    position: relative;
     bottom:0px;
     margin-left: 0;
     width: 100%;
+    padding-bottom: 2em;
+}
+.footer h2 {
+    font-family: 'Roboto Slab';
 }
 .footer a {
     color: black;
@@ -123,12 +141,16 @@ a {
     width: 1.5em;
 }
 h3 a, h2 a {
+    font-family: 'Roboto Slab';
     text-decoration: none;
-    color: white;
     padding: 0.5em;
+    color: black;
 }
 h3 a:hover {
-    border: 1px solid white;
+    /*border-bottom: 3px solid rgb(92, 158, 217);*/
+    
+    border: 3px solid rgb(62, 158, 247);
+    border-radius: 15px;
 }
 .selected {
     border: 1px solid white;
