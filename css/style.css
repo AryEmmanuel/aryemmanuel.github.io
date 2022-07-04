@@ -157,7 +157,6 @@ a {
 }
 .footer {
     background-color:#5CD99E;
-    position: absolute;
     color: black;
     margin-right: 0em;
     bottom:0;
@@ -165,13 +164,13 @@ a {
     width: 100%;
     padding-top: 1em;
     padding-bottom: 1em;
-    border-top: 3px solid;
+    border-top: 3px solid rgb(0, 0, 80);
 }
 .footer h2 {
     font-family: 'Roboto Slab';
 }
 .footer a {
-    color: black;
+    color: rgb(0, 0, 80);
 }
 .normal-f i {
     font-size: 1.5em;
