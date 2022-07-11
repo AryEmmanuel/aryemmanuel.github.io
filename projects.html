@@ -4,12 +4,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=0.35, maximum-scale=0.35, user-scalable=no" />
     <link rel="stylesheet" href="css/flexboxgrid.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/ecb38dd182.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3edc6e5a2d.js" crossorigin="anonymous"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
     <title>Projects - Ary Caballero</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 </head>
 <html>
 <body class="corregir ini">
@@ -18,28 +21,7 @@
             <h5 style="text-align: center;">Notice: this page is under renovation</h5>
         </div>
     </div>
-    <div class="row start header middle-xs">
-        <div class="col-xs-3 col-xs-offset-1">
-            <div class="container">
-                <h2 class="name"><a href="index.html">Ary Caballero</a></h2>  
-            </div>                  
-        </div>
-        <div class="col-xs-2  col-xs-offset-2 center-xs">
-            <h3>
-                <a href="about.html">Acerca de mí</a>  
-            </h3>                  
-        </div>
-        <div class="col-xs-2 center-xs">
-            <h3>
-                <a href="cv.html">Mi CV</a>  
-            </h3>                  
-        </div>
-        <div class="col-xs-2 center-xs">
-            <h3>
-                <a href="projects.html" class="selected">Proyectos</a>
-            </h3>                  
-        </div>
-    </div>
+    <div id="navbarDiv"></div>
     <div class="corregir" style="min-height: 90%;">
         <div class="row nmright middle-xs center-xs">
             <div class="col-xs-6" style="padding: 1em; color: white;">
@@ -70,31 +52,8 @@
                 </div>                
             </div>
         </div>
-        <div class="footer" style="position: absolute;">
-            <div class="row start middle-xs corregir">
-                <div class="col-xs-1  col-xs-offset-9 center-xs">
-                    <div class="containe">
-                        <h2><a href="mailto:aryemmanuel599@gmail.com">
-                            <i class="far fa-envelope"></i>
-                        </a></h2>  
-                    </div>                  
-                </div>
-                <div class="col-xs-1 center-xs">
-                    <div class="containr">
-                        <h2><a href="https://twitter.com/aryeCaballero">
-                            <i class="fab fa-twitter"></i>
-                        </a></h2>  
-                    </div>                  
-                </div>
-                <div class="col-xs-1 center-xs">
-                    <div class="containe">
-                        <h2><a href="https://github.com/AryEmmanuel">
-                            <i class="fab fa-github"></i>
-                        </a></h2>  
-                    </div>                  
-                </div>
-            </div>
-        </div>
     </div>
+    <div id="footerDiv"></div>
+    <script src="js/index.js" type="text/babel"></script>
 </body>
 </html>
